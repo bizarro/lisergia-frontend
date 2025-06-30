@@ -1,0 +1,51 @@
+
+
+> web@1.0.1 build
+> npm run build:server && npm run build:client
+
+[1G[0K
+> web@1.0.1 build:server
+> tsup index.ts
+
+[1G[0K[34mCLI[39m Building entry: index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.0
+[34mCLI[39m Using tsup config: /Users/bizarro/Projects/lisergia/apps/web/tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[32mESM[39m [1mindex.js     [22m[32m2.74 KB[39m
+[32mESM[39m [1mindex.js.map [22m[32m9.37 KB[39m
+[32mESM[39m ⚡️ Build success in 13ms
+[1G[0K⠙[1G[0K
+> web@1.0.1 build:client
+> npm run content && lisergia build
+
+[1G[0K
+> web@1.0.1 content
+> tsx download.ts
+
+[1G[0KContent generated under content.json.
+[1G[0K⠙[1G[0K[plugin typescript] ../../node_modules/gsap/src/SplitText.ts (322:3): @rollup/plugin-typescript TS2322: Type 'SplitTextConfig | {}' is not assignable to type 'SplitTextConfig'.
+  Property 'type' is missing in type '{}' but required in type 'SplitTextConfig'.
+[plugin typescript] ../../node_modules/gsap/src/SplitText.ts (322:15): @rollup/plugin-typescript TS2322: Type 'SplitTextConfig | {}' is not assignable to type 'SplitTextConfig'.
+  Property 'type' is missing in type '{}' but required in type 'SplitTextConfig'.
+[plugin typescript] ../../node_modules/gsap/src/SplitText.ts (396:32): @rollup/plugin-typescript TS2488: Type 'NodeListOf<ChildNode>' must have a '[Symbol.iterator]()' method that returns an iterator.
+[plugin typescript] ../../node_modules/gsap/src/SplitText.ts (430:7): @rollup/plugin-typescript TS1345: An expression of type 'void' cannot be tested for truthiness.
+[plugin typescript] ../../node_modules/gsap/src/SplitText.ts (430:7): @rollup/plugin-typescript TS1345: An expression of type 'void' cannot be tested for truthiness.
+[32mcopied:[39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/fonts[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/fonts[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/open-graph.png[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/open-graph.png[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/robots.txt[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/robots.txt[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/fonts/editorial-new.woff[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/fonts/editorial-new.woff[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/fonts/editorial-new.woff2[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/fonts/editorial-new.woff2[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/fonts/neue-montreal.woff[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/fonts/neue-montreal.woff[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/fonts/neue-montreal.woff2[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/fonts/neue-montreal.woff2[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon/apple-touch-icon.png[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon/apple-touch-icon.png[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon/favicon-96x96.png[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon/favicon-96x96.png[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon/favicon.ico[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon/favicon.ico[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon/favicon.svg[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon/favicon.svg[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon/site.webmanifest[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon/site.webmanifest[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon/web-app-manifest-192x192.png[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon/web-app-manifest-192x192.png[22m[39m [33m[R][39m
+[32m  [1m/Users/bizarro/Projects/lisergia/apps/web/src/shared/favicon/web-app-manifest-512x512.png[22m → [1m/Users/bizarro/Projects/lisergia/apps/web/build/favicon/web-app-manifest-512x512.png[22m[39m [33m[R][39m
+[1G[0K⠙[1G[0K[1G[0K⠙[1G[0K
